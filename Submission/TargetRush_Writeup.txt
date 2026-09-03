@@ -1,0 +1,14 @@
+Target Rush
+
+Target Rush is a one-minute Google Cardboard target-shooting game for Android. The player stands in a neon range, looks around using the phone’s head tracking, and presses the Cardboard viewer button (a screen tap) to fire a ball in the direction of the camera. The ball uses Unity physics, and successful hits make the target disappear briefly before it respawns at a new location. The score increases with each hit, while consecutive hits create a streak multiplier. Missing or waiting breaks the streak, and the timer provides a limited objective.
+
+I believe this qualifies as a game because it has a player-controlled interaction, a goal, challenge, rules, feedback, and a measurable outcome. The player must aim accurately by moving their head, decide when to fire, and try to maximize their score before time runs out. The target’s changing position prevents the interaction from being a single one-time demonstration. The score, timer, hit feedback, and final result give the player a reason to continue and a way to compare attempts.
+
+The scene uses built-in Unity primitives for the floor, frame, pillars, target board, and projectile. Materials provide the neon colors and visual feedback. The target artwork is the concentric target image supplied with the assignment. The Google Cardboard XR Plugin provides stereo rendering, head tracking, and the physical viewer trigger on Android. Testing is supported in the Unity Editor with a mouse click.
+
+Sources
+
+- Google Cardboard XR Plugin for Unity: https://github.com/googlevr/cardboard-xr-plugin/releases/tag/v1.34.0
+- Unity documentation: https://docs.unity3d.com/
+- Target texture: provided with COMP 590/790 Assignment 1.
+
